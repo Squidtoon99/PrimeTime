@@ -136,13 +136,7 @@ def get_readable_exe_name(exe_path):
         )
 
         # Define default language and codepage if not found.
-        languages = [(1033, 1200)]
-        if success and puLen.value:
-            translation = ctypes.cast(
-                lplpBuffer, ctypes.POINTER(ctypes.c_ubyte * puLen.value)
-            ).contents
-            lang, codepage = struct.unpack("<HH", bytes(translation))
-            languages = [(lang, codepage)]
+        languages = [(1033, 1200)] if not success else [(lang, codepage)]
 
         for lang, codepage in languages:
             for key in ("FileDescription", "ProductName"):
