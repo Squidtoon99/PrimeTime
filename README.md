@@ -1,3 +1,7 @@
+# PrimeTime
+![1730868334420](https://github.com/user-attachments/assets/f92816b0-5123-4355-b4c1-a94cadfc46f1)
+
+
 ## Inspiration
 
 As a society, it's often that we find ourselves distracted by the simplest of things. Whether its video games, Youtube, or anything in between, in this day and age, there is always something to distract you, regardless of where you look. Us personally, we're not strangers to being distracted. Even during this hackathon, we found some moments where we got distracted early on. That's why we made PrimeTime, to make sure that others can prioritize what's really necessary.
